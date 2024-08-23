@@ -111,47 +111,112 @@ export const feedback = [
 
 export const footer_link = [
     {
-        title: "Useful links",
+        title: "Learn",
         links: [
             {
-                text: "About us",
+                text: "Browse Meme Prices",
             }, 
             {
                 text: "Events"
             },
             {
-                text: "Blogs"
+                text: "Meme Tier"
             },
             {
-                text: "FAQs"
+                text: "Tips & tutorials"
             },
+            {
+                text: "Market updates"
+            },
+            {
+                text: "What is Moonshot?"
+            },
+            {
+                text: "What is crypto?"
+            },
+            {
+                text: "What is a blockchain?"
+            },
+            
         ]
     },
     {
-        title: "Main Menu",
+        title: "Support",
         links: [
             {
-                text: "Home",
+                text: "Help center",
             }, 
             {
-                text: "Coins"
+                text: "Contact us"
             },
             {
-                text: "Review"
+                text: "Create account"
             },
             {
-                text: "About"
+                text: "ID verification"
+            },
+            {
+                text: "Account information"
+            },
+            {
+                text: "Payment methods"
+            },
+            {
+                text: "Account access"
             },
         ]
     }, 
+
     {
-        title: "Contact Us",
+        title: "Developers",
         links: [
             {
-                text: "memecoin@gmail.com",
+                text: "Moonshot Cloud",
             }, 
             {
-                text: "+6348473"
+                text: "Connect"
+            },
+            {
+                text: "Commerce"
+            },
+            {
+                text: "Pro"
+            },
+            {
+                text: "Bison Trails"
+            },
+            {
+                text: "WalletLink"
+            },
+            {
+                text: "Meme"
+            },
+        ]
+    }, 
+    
+    {
+        title: "Company",
+        links: [
+            {
+                text: "About",
+            }, 
+            {
+                text: "Career"
+            },
+        ]
+    },
+
+    {
+        title: "Businesses",
+        links: [
+            {
+                text: "Prime",
+            }, 
+            {
+                text: "Custody"
+            },
+            {
+                text: "Asset Hub"
             },
         ]
     }

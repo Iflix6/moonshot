@@ -1,0 +1,23 @@
+import { stat } from '../constant'
+
+const Feature = () => {
+  return (
+    <section className='sm:py-16 py-6'>
+        <h2 className='text-white sm:text[48px] text-[30px] font-sans font-medium text-center mb-3'>Create your crypto <br className='sm:block hidden' />currency portfolio today</h2>
+        <p className='text-white text-[18px] text-center font-sans font-normal'>Moonshot has a variety of features that makes it the<br className='sm:block hidden' /> best place to start trading.</p>
+        <div className='flex sm:flex-row flex-col items-center justify-between gap-10 mt-5'>
+           {stat.map((item, index)=>(
+             <div className='bg-black flex flex-col items-center justify-center p-6 max-w-[380px] h-auto rounded-[12px]' key={index}> 
+             <img src={item.icon} alt="" />
+             <div className='flex flex-col items-center justify-center'>
+                 <h4 className='text-white text-xl my-3 font-sans '>{item.title}</h4>
+                 <p className='text-white text-[14px]  text-center font-sans font-light'>{item.text}</p>
+             </div>
+            </div>
+           ))}
+        </div>
+    </section>
+  )
+}
+
+export default Feature
